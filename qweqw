@@ -1,0 +1,6 @@
+
+	struct book b1 = { "dahsd",55 };
+	struct book* pd = &b1;
+	printf("%s\n", (*pd).name);
+	printf("%s\n", b1.name);
+	printf("%d\n", b1.price);
